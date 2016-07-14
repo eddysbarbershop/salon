@@ -196,11 +196,9 @@
         </div>
         <div class="col-lg-6">
           <h5 class="text-inverse text-xs-left">1785 Coventry Rd. Cleveland Heights, OH 44118</h5>
-          <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxLLCFT65ISD1TAAd54GlmNU1a3BeO3eA"></script>
           <div style="overflow:hidden;height:480px;width:640px;">
             <div id="gmap_canvas" style="height:480px;width:640px;"></div>
-            <div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div>
-            <div><small><a href="http://werkenbij.rebelinternet.nl/hr-manager/">HR Manager</a></small></div>
             <style>
               #gmap_canvas img {
                 max-width: none!important;
@@ -209,7 +207,7 @@
             </style>
           </div>
           <script type="text/javascript">
-            function init_map(){var myOptions = {key:AIzaSyDxLLCFT65ISD1TAAd54GlmNU1a3BeO3eA,zoom:16,center:new google.maps.LatLng(41.5110974,-81.579726),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.5110974,-81.579726)});infowindow = new google.maps.InfoWindow({content:'<strong>Eddy\'s on Coventry</strong>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+            function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(41.5110974,-81.579726),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.5110974,-81.579726)});infowindow = new google.maps.InfoWindow({content:'<strong>Eddy\'s on Coventry</strong>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
           </script>
         </div>
       </div>
