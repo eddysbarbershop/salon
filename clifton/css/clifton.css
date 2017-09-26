@@ -9,8 +9,8 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @font-face {
   font-family: 'imprint-shadow';
-  src: url("../../css/fonts/imprint/imprint-shadow.eot");
-  src: url("../../css/fonts/imprint/imprint-shadow.eot?#iefix") format("embedded-opentype"), url("../../css/fonts/imprint/imprint-shadow.woff") format("woff");
+  src: url("http://eddyscleveland.com/css/fonts/imprint/imprint-shadow.eot");
+  src: url("http://eddyscleveland.com/css/fonts/imprint/imprint-shadow.eot?#iefix") format("embedded-opentype"), url("http://eddyscleveland.com/css/fonts/imprint/imprint-shadow.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -2957,7 +2957,7 @@ button.list-group-item-danger {
       bottom: -11px;
       margin-left: -6px;
       border-top-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-top .arrow::after, .popover.bs-popover-auto[x-placement^="top"] .arrow::after {
       bottom: -10px;
       margin-left: -6px;
@@ -2973,7 +2973,7 @@ button.list-group-item-danger {
     .popover.bs-popover-right .arrow::before, .popover.bs-popover-auto[x-placement^="right"] .arrow::before {
       left: -11px;
       border-right-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-right .arrow::after, .popover.bs-popover-auto[x-placement^="right"] .arrow::after {
       left: -10px;
       border-right-color: #fff; }
@@ -2988,7 +2988,7 @@ button.list-group-item-danger {
     .popover.bs-popover-bottom .arrow::before, .popover.bs-popover-auto[x-placement^="bottom"] .arrow::before {
       top: -11px;
       border-bottom-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-bottom .arrow::after, .popover.bs-popover-auto[x-placement^="bottom"] .arrow::after {
       top: -10px;
       border-bottom-color: #fff; }
@@ -3012,7 +3012,7 @@ button.list-group-item-danger {
     .popover.bs-popover-left .arrow::before, .popover.bs-popover-auto[x-placement^="left"] .arrow::before {
       right: -11px;
       border-left-color: rgba(0, 0, 0, 0.25); }
-    
+
     .popover.bs-popover-left .arrow::after, .popover.bs-popover-auto[x-placement^="left"] .arrow::after {
       right: -10px;
       border-left-color: #fff; }
