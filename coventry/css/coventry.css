@@ -10,8 +10,8 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @font-face {
   font-family: 'imprint-shadow';
-  src: url("http://eddyscleveland.com/css/fonts/imprint/imprint-shadow.eot");
-  src: url("http://eddyscleveland.com/css/fonts/imprint/imprint-shadow.eot?#iefix") format("embedded-opentype"), url("http://eddyscleveland.com/css/fonts/imprint/imprint-shadow.woff") format("woff");
+  src: url("fonts/imprint/imprint-shadow.eot");
+  src: url("fonts/imprint/imprint-shadow.eot?#iefix") format("embedded-opentype"), url("fonts/imprint/imprint-shadow.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
