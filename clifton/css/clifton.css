@@ -6,6 +6,7 @@
  * Based on Bootstrap
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 @font-face {
   font-family: 'imprint-shadow';
@@ -5791,6 +5792,10 @@ body > * {
 
 .imprint-shadow {
   font-family: imprint-shadow; }
+
+.no-border {
+  border: 0px;
+  background-color: transparent !important; }
 
 @media (max-width: 767px) {
   .display-1 {

@@ -7,6 +7,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 @font-face {
@@ -54,6 +55,7 @@ $link-color: #555555;
 
 
 $font-family-base: Montserrat;
+$display-family-base: Oswald;
 $headings-font-family: Playfair Display;
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
@@ -61,6 +63,7 @@ $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 
 $border-radius: 0px;
 $border-radius-lg: $border-radius * 1.2;$border-radius-sm: $border-radius * .8;$spacer: 1.5rem;
+$display-font-family: Oswald;
 @import 'bootstrap-4.0.0-beta.1';
 
 
@@ -110,6 +113,11 @@ body > * {
 
 .imprint-shadow {
 	font-family: imprint-shadow;
+}
+
+.no-border {
+  border: 0px;
+  background-color: transparent !important;
 }
 
 @include media-breakpoint-down(sm) {
